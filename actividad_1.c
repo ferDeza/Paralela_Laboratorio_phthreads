@@ -4,7 +4,7 @@
 
 #include "lab_common.h"
 
-#define DEFAULT_STEPS 100000000LL
+#define DEFAULT_STEPS 30000000LL
 #define PI_REFERENCE 3.14159265358979323846
 
 typedef struct {
@@ -22,6 +22,7 @@ static double pi_sequential(long long steps) {
 
     for (long long i = 0; i < steps; i++) {
         double x = ((double)i + 0.5) * step;
+        //integral of 4/(1+x^2) from 0 to 1 is pi
         sum += 4.0 / (1.0 + x * x);
     }
 

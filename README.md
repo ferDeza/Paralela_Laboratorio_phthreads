@@ -1,5 +1,5 @@
 # Laboratorio Pthreads
-
+En este repositorio se encuentran los comandos y los archivos para la ejecucion de cada una de las actividades del laboratorio.
 ## Código fuente
 
 - `actividad_1.c`: cálculo secuencial y paralelo de π.
@@ -92,7 +92,8 @@ En Linux:
 
 Los argumentos son:
 
-- `actividad_1`: número de threads y cantidad de iteraciones.
+- `actividad_1`: número de threads y cantidad opcional de iteraciones
+  (por defecto, `30000000`).
 - `actividad_2`: número de threads y dimensión de la matriz cuadrada.
 - `actividad_3`: número de threads y operaciones por thread.
 - `actividad_4`: número de threads y rondas de barrera.
